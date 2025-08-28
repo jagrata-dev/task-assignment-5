@@ -3,7 +3,7 @@ function getLocalTime(){
     return date
 }
 
-// Heart count
+// Heart count, call and history function
 document.getElementById("parent-div").addEventListener("click", function(e){
     if(e.target.className.includes("heart-icon")){
         const heartIcon = e.target
@@ -11,7 +11,8 @@ document.getElementById("parent-div").addEventListener("click", function(e){
         let totalHeart = countHeart + 1
         document.getElementById("parent-heart").innerText = totalHeart
     }
-
+    
+    // call and history functions
     if(e.target.className.includes("call-btn")){
         callBtn = e.target
         let cartTitle = callBtn.parentNode.children[1].innerText
@@ -41,9 +42,20 @@ document.getElementById("parent-div").addEventListener("click", function(e){
             return
         }
     }
+
+    // Copy functions
+    if(e.target.className.includes("copy-btn")){
+        const copyBtn = e.target
+        const parentCopy = Number(document.getElementById("parent-copy").innerText)
+        let cartNumber = copyBtn.parentNode.children[3].innerText
+        let updatedCopyCount = parentCopy + 1
+        navigator.clipboard.writeText(cartNumber)
+        alert(`you have successfully copied ${cartNumber}`)
+        document.getElementById("parent-copy").innerText = updatedCopyCount
+    }
 })
 
-// Clear
+// Clear function
 document.getElementById("clear-btn").addEventListener("click", function(){
     document.getElementById("history-parent").innerText = ""
 })
