@@ -23,13 +23,13 @@
         class="mt-[25px] flex flex-col max-w-[1800px] mx-auto md:flex md:flex-row justify-between items-center"
       >
         <div class="md:flex gap-2">
-          <img class="w-[50px] h-[50px]" src="./assets/logo.png" alt="" />
+          <div class="flex justify-center"><img class="w-[50px] h-[50px]" src="./assets/logo.png" alt="" /></div>
           <h2 class="font-bold text-[#006747] text-xl">
-            Emergency <br />
+            Emergency <br class="hidden md:block"/>
             Service
           </h2>
         </div>
-        <div class="md:flex gap-4">
+        <div class="flex flex-row justify-center items-center md:flex gap-4">
           <div
             class="flex justify-center items-center gap-2 w-[123px] h-[52px] bg-[#41ff6b1a] rounded-l-[50px] rounded-r-[50px] my-3 md:my-0"
           >
@@ -70,9 +70,9 @@
           Government of the People’s Republic of Bangladesh
         </p>
       </section>
-      <section class="py-[48px] px-[58px] bg-[rgb(245,255,246)]">
+      <section class="py-[48px] px-[25px] md:px-[58px] bg-[rgb(245,255,246)]">
         <div id="parent-div"
-          class="max-w-[1800px] mx-[auto] min-h-[1140px] flex flex-col gap-3 md:grid grid-cols-4 grid-rows-3 md:gap-3"
+          class="max-w-[1800px] mx-[auto] min-h-[1140px] flex flex-col gap-5 md:grid grid-cols-4 grid-rows-3 md:gap-3"
         >
         <!-- cards -->
           <div
@@ -97,12 +97,12 @@
               All
             </p>
             <button
-              class="copy-btn text-[#5C5C5C] w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200"
+              class="copy-btn text-[#5C5C5C] w-full md:w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 mb-3 md:mb-none"
             >
               <i class="mr-2 fa-regular fa-copy"></i>Copy
             </button>
             <button
-              class="w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
+              class="w-full md:w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
             hover:bg-gray-500"
             >
               <i class="mr-2 fa-solid fa-phone"></i>Call
@@ -130,12 +130,12 @@
               Police
             </p>
             <button
-              class="text-[#5C5C5C] w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 copy-btn"
+              class="copy-btn text-[#5C5C5C] w-full md:w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 mb-3 md:mb-none"
             >
               <i class="mr-2 fa-regular fa-copy"></i>Copy
             </button>
             <button
-              class="w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
+              class="w-full md:w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
             hover:bg-gray-500"
             >
               <i class="mr-2 fa-solid fa-phone"></i>Call
@@ -163,19 +163,19 @@
               Fire
             </p>
             <button
-              class="text-[#5C5C5C] w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 copy-btn"
+              class="copy-btn text-[#5C5C5C] w-full md:w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 mb-3 md:mb-none"
             >
               <i class="mr-2 fa-regular fa-copy"></i>Copy
             </button>
             <button
-              class="w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
+              class="w-full md:w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
             hover:bg-gray-500"
             >
               <i class="mr-2 fa-solid fa-phone"></i>Call
             </button>
           </div>
           <div
-            class="hidden md:block max-w-[436px] h-[1125px] rounded-[12px] p-[32px] shadow-sm bg-white row-span-3"
+            class="order-last md:order-none md:block max-w-[436px] md:h-[1125px] rounded-[12px] p-[32px] shadow-sm bg-white row-span-3"
           >
             <div class="flex justify-between items-center mb-[16px]">
               <p class="font-bold"><i class="text-[#5C5C5C] mr-1 fa-regular fa-clock"></i>Call History</p>
@@ -211,12 +211,12 @@
               Health
             </p>
             <button
-              class="text-[#5C5C5C] w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 copy-btn"
+              class="copy-btn text-[#5C5C5C] w-full md:w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 mb-3 md:mb-none"
             >
               <i class="mr-2 fa-regular fa-copy"></i>Copy
             </button>
             <button
-              class="w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
+              class="w-full md:w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
             hover:bg-gray-500"
             >
               <i class="mr-2 fa-solid fa-phone"></i>Call
@@ -244,12 +244,12 @@
               Help
             </p>
             <button
-              class="text-[#5C5C5C] w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 copy-btn"
+              class="copy-btn text-[#5C5C5C] w-full md:w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 mb-3 md:mb-none"
             >
               <i class="mr-2 fa-regular fa-copy"></i>Copy
             </button>
             <button
-              class="w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
+              class="w-full md:w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
             hover:bg-gray-500"
             >
               <i class="mr-2 fa-solid fa-phone"></i>Call
@@ -277,12 +277,12 @@
               Govt.
             </p>
             <button
-              class="text-[#5C5C5C] w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 copy-btn"
+              class="copy-btn text-[#5C5C5C] w-full md:w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 mb-3 md:mb-none"
             >
               <i class="mr-2 fa-regular fa-copy"></i>Copy
             </button>
             <button
-              class="w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
+              class="w-full md:w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
             hover:bg-gray-500"
             >
               <i class="mr-2 fa-solid fa-phone"></i>Call
@@ -310,12 +310,12 @@
               Electricity
             </p>
             <button
-              class="text-[#5C5C5C] w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 copy-btn"
+              class="copy-btn text-[#5C5C5C] w-full md:w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 mb-3 md:mb-none"
             >
               <i class="mr-2 fa-regular fa-copy"></i>Copy
             </button>
             <button
-              class="w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
+              class="w-full md:w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
             hover:bg-gray-500"
             >
               <i class="mr-2 fa-solid fa-phone"></i>Call
@@ -343,12 +343,12 @@
               NGO
             </p>
             <button
-              class="text-[#5C5C5C] w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 copy-btn"
+              class="copy-btn text-[#5C5C5C] w-full md:w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 mb-3 md:mb-none"
             >
               <i class="mr-2 fa-regular fa-copy"></i>Copy
             </button>
             <button
-              class="w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
+              class="w-full md:w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
             hover:bg-gray-500"
             >
               <i class="mr-2 fa-solid fa-phone"></i>Call
@@ -376,12 +376,12 @@
               Travel
             </p>
             <button
-              class="text-[#5C5C5C] w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 copy-btn"
+              class="copy-btn text-[#5C5C5C] w-full md:w-[182px] h-10 box-border border border-gray-300 rounded-[8px] bg-white mr-[3px] cursor-pointer hover:bg-blue-200 mb-3 md:mb-none"
             >
               <i class="mr-2 fa-regular fa-copy"></i>Copy
             </button>
             <button
-              class="w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
+              class="w-full md:w-[182px] h-[40px] box-border border border-gray-300 rounded-[8px] bg-[#00A63E] text-white call-btn cursor-pointer
             hover:bg-gray-500"
             >
               <i class="mr-2 fa-solid fa-phone"></i>Call
